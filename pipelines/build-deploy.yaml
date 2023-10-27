@@ -25,7 +25,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '**/code/target/*.jar'
+    PathtoPublish: 'code/target/boga-demo-1.0.jar'
     ArtifactName: 'bogaJavaApp'
     publishLocation: 'Container'
 
