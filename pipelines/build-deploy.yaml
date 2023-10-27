@@ -25,8 +25,8 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'code\target\*.jar'
-    ArtifactName: 'petClinic'
+    PathtoPublish: '**/code/target/*.jar'
+    ArtifactName: 'bogaJavaApp'
     publishLocation: 'Container'
 
 - task: AzureRmWebAppDeployment@4
