@@ -2,10 +2,9 @@ trigger:
 - develop
 
 pool:
-vmImage: windows-latest
+  vmImage: windows-latest
 
 steps:
-
 - task: JavaToolInstaller@0
   inputs:
     versionSpec: '17'
